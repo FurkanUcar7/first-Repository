@@ -1,0 +1,205 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --light-red: hsl(0, 100%, 67%);
+    --orangey-yellow: hsl(39, 100%, 56%);
+    --green-teal: hsl(166, 100%, 37%);
+    --cobalt-blue: hsl(234, 85%, 45%);
+
+    --light-slate-blue: hsl(252, 100%, 67%, .2);
+    --light-royal-blue: hsl(241, 81%, 54%);
+
+    --violet-blue-circle: hsla(256, 72%, 46%, 1);
+    --persian-blue-circle: hsla(241, 72%, 46%, 0);
+
+    --white: hsl(0, 0%, 100%);
+    --pale-blue: hsl(221, 100%, 96%);
+    --light-lavender: hsl(241, 100%, 89%);
+    --dark-grey-blue:  hsl(224, 30%, 27%);
+
+    
+}
+
+
+body{
+    background-color: #fefefe;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+/* -------------------- Ortak Class'lar --------------------- */
+
+.fellow-cod p,h4{
+    display: inline-block;
+}
+
+.fellow-cod h4{
+    position: relative;
+    bottom: 14px;
+}
+
+.fellow-cod img{
+    margin: 10px;
+}
+
+.fellow-cod{
+    margin-bottom: 17px;
+    height: 40px;
+    position: relative;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.score{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+/* ----------------------------------------------------------- */
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+
+.blue-div{
+    width: 280px;
+    height: 350px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    z-index: 1;
+    background-image: linear-gradient( to top,#362FD9, #6927FF);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.blue-title{
+    margin-bottom: 20px;
+}
+
+.circle-div{
+    width: 58%;
+    height: 46%;
+    border-radius: 50%;
+    /* background-color: var(--violet-blue-circle); */
+    background-image: linear-gradient(to top,#362FD9, var(--violet-blue-circle));
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.title-76{
+    font-size: 66px;
+    margin-top: 35px;
+    display: block;
+    color: var(--white)
+}
+
+.of-100{
+    position: relative;
+    bottom: 10px;
+}
+
+.of-100, .blue-title, .comment{
+    color: hsl(360, 0%, 70%)
+}
+
+.great{
+    margin: 30px 0px 10px 0px;
+    color: var(--white)
+}
+
+.comment{
+    width: 230px;
+    display: inline-block;
+}
+
+.white-div{
+    width: 280px;
+    height: 350px;
+    position: relative;
+    right: 45px;
+    padding: 20px 20px 20px 65px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 50px 0px var(--light-slate-blue);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.white-title{
+    padding-bottom: 20px;
+}
+
+.reaction{
+    background-color: hsl(0, 100%, 67%, 0.1);
+}
+.reaction-title{
+    color: var(--light-red);
+}
+
+.memory{
+    background-color: hsl(39, 100%, 56%, .1); ;
+}
+.memory-title{
+    color: var(--orangey-yellow);
+}
+
+.verbal{
+    background-color:hsl(166, 100%, 37%, .1) ;
+}
+.verbal-title{
+    color: var(--green-teal);
+}
+
+.visual{
+    background-color: hsl(234, 85%, 45%, .1);
+}
+.visual-title{
+    color: var(--cobalt-blue);
+}
+
+
+.continue{
+    border-style: none;
+    margin-top: 15px;
+    text-align: center;
+    padding: 10px 100px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: var(--dark-grey-blue);
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+}
+
+.continue:hover{
+    background-color:#362FD9;
+}
+
+.score-100{
+    color: #9BA4B5;
+}
